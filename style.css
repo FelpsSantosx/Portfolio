@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --color-font: #EEEEEE;
+    --color-blackGrey: #222831;
+    --color-black: #242629;
+    --color-Gold: #FFD369;
+    --color-hover: #EDEDED;
+    --font-kode: "Kode Mono", monospace;
+    /*400 to 700*/
+    --fonte-sans: "Open Sans", sans-serif;
+    /*300 to 800*/
+}
+
+
+body {
+
+    color: var(--color-font);
+    background-color: var(--color-blackGrey);
+
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+
+.cabeçalho__nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    padding: 0 5rem 0 0;
+}
+
+.cabeçalho__nav_link {
+    font-family: var(--fonte-sans);
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+}
+
+#section_I {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 50rem 13rem 5rem;
+}
+
+.first__page { }
+
+.btn {
+    margin: 1rem 0;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    background-color: var(--color-black);
+    color: var(--color-Gold);
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+#homePage__titulo {
+    font-family: var(--fonte-sans);
+    font-weight: 600;
+    font-size: 3.12rem;
+}
+
+#homePage__titulo__span {
+    font-family: var(--font-kode);
+    font-size: 3.50rem;
+    font-weight: 700;
+    color: var(--color-Gold);
+    animation: fadeInOut 5s infinite;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+}
+
+.homePage__paragrafo {
+    font-family: var(--fonte-sans);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#section_II {
+    display: flex;
+    flex-direction: column;
+}
+
+.second__page{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+}
+
+.second__page-page{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6rem;
+}
+
+.titulo__sobre{
+    font-family: var(--fonte-sans);
+    font-weight: 600;
+    font-size: 3.12rem;
+}
+
+.sobre__sobre{
+    padding: 0 5rem 0 15rem;
+    font-family: var(--fonte-sans);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.felipe {
+    margin-top: 3rem;
+    position: absolute;
+    border: solid var();
+    border-radius: 10rem;
+    background-color: var(--color-black);
+}
