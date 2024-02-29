@@ -2,7 +2,7 @@
 
 :root {
     --color-font: #EEEEEE;
-    --color-blackGrey: #222831;
+    --color-blackGrey: #242020;
     --color-black: #242629;
     --color-Gold: #FFD369;
     --color-hover: #EDEDED;
@@ -14,7 +14,7 @@
 
 
 body {
-
+    
     color: var(--color-font);
     background-color: var(--color-blackGrey);
 
@@ -23,7 +23,7 @@ body {
 .cabeçalho {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0;
+    padding: 1.3rem 0 ;
 }
 
 
@@ -37,10 +37,19 @@ body {
 .cabeçalho__nav_link {
     font-family: var(--fonte-sans);
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--color-font);
     text-decoration: none;
+    text-transform: uppercase;
 }
+.lista_icone{ }
+
+.link_icone {
+    color: var(--color-Gold);
+
+}
+
+.icones{ }
 
 .homePage {
     display: flex;
@@ -49,11 +58,14 @@ body {
 
 #section_I {
     display: flex;
-    flex-direction: column;
-    margin: 5rem 50rem 13rem 5rem;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5rem;
 }
 
-.first__page { }
+.first__page { 
+    padding-right: 5rem;
+}
 
 .btn {
     margin: 1rem 0;
@@ -105,6 +117,7 @@ body {
 .second__page{
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: 5rem;
 }
 
@@ -121,7 +134,7 @@ body {
 }
 
 .sobre__sobre{
-    padding: 0 5rem 0 15rem;
+    padding: 0 3rem 0 15rem;
     font-family: var(--fonte-sans);
     font-size: 1.5rem;
     font-weight: 400;
@@ -133,4 +146,33 @@ body {
     border: solid var();
     border-radius: 10rem;
     background-color: var(--color-black);
+}
+
+.titulo__Skills{
+    font-family: var(--fonte-sans);
+    font-weight: 600;
+    font-size: 3.12rem;
+}
+
+.card {
+    color: var(--color-Gold);
+    border-radius: 10px;
+    background: var(--color-black);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1rem;
+    padding: 1rem;
+    font-family: var(--font-kode);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card_lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topico_card {
+    text-align: center;
 }
