@@ -49,6 +49,11 @@ body {
 
 }
 
+.eu {
+    width: 100vh;
+    height: 100vh;
+}
+
 .icones{ }
 
 .homePage {
@@ -60,6 +65,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     margin: 0 5rem;
 }
 
